@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "image": "https://www.denelli.co.uk/media/catalog/product/cache/1/image/1029x825/9df78eab33525d08d6e5fb8d27136e95/b/u/bubble-boucle-designer-sofa-6.jpeg",
+      "title": "Product Title 1",
+      "description": "Product description 1",
+      "price": "$450"
+    },
+    {
+      "image": "https://www.denelli.co.uk/media/catalog/product/cache/1/image/1029x825/9df78eab33525d08d6e5fb8d27136e95/a/l/alessio-5-6-seater-sofa-1.jpeg",
+      "title": "Product Title 2",
+      "description": "Product description 2",
+      "price": "$550"
+    },
+    {
+      "image": "https://www.denelli.co.uk/media/catalog/product/cache/1/image/1029x825/9df78eab33525d08d6e5fb8d27136e95/m/e/melani1.jpg",
+      "title": "Product Title 3",
+      "description": "Product description 3",
+      "price": "$750"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Mart",
+      "lastName": "Gjepali",
+      "email": "martskuthi@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "firstName": "rei",
+      "lastName": "bengu",
+      "email": "reibengu@Gmail.com",
+      "password": "123444",
+      "id": 3
+    },
+    {
+      "firstName": "edar",
+      "lastName": "stojku",
+      "email": "yamisukehiro@otulook.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "firstName": "test",
+      "lastName": "123",
+      "email": "test12@gmail.com",
+      "password": "12345test",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/* Card container styles */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Distribute cards evenly across the row */
+  gap: 20px;
+  /* Adjust the gap between cards as needed */
+}
+
+/* Card styles */
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  /* Adjust for padding and gap */
+  max-width: calc(33.33% - 20px);
+  /* Adjust for padding and gap */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Media query for smaller screens, change to a single column layout */
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(100% - 20px);
+    /* Take up full width on smaller screens */
+    max-width: calc(100% - 20px);
+    /* Take up full width on smaller screens */
+  }
+}
